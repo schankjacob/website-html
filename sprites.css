@@ -136,11 +136,21 @@ height: 50px;
 background-color: rosybrown;
 border-style: outset;
 border-width: 5px;
-border-color: rosybrown;
+border-color: #c9a5a5;
 display: flex;
 align-items: center;
 justify-content: center;
 box-shadow: 5px 5px #e6ccca;
 font-size: 24px;
 color: #261d1d;
+user-select: none;
+}
+#button:hover {
+    background-color: #967272;
+    border-color: rosybrown;
+}
+#button:active {
+    background-color: #967272;
+    border-color: rosybrown;
+    border-style: inset;
 }
