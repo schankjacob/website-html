@@ -45,3 +45,18 @@ main {
 .link {
   color: #FF7869;
 }
+
+#button {
+  width: 150px;
+  height: 50px;
+  background-color: rosybrown;
+  border-style: outset;
+  border-width: 5px;
+  border-color: rosybrown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px #e6ccca;
+  font-size: 24px;
+  color: #261d1d;
+}
