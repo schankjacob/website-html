@@ -1,10 +1,5 @@
-* {
-  font-family: 'VT323', monospace;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'VT323', monospace;
   box-sizing: border-box;
   background-color: mistyrose;
   display: flex;
@@ -17,14 +12,9 @@ footer {
   margin-bottom: 20px;
 }
 
-main {
-  align-items: center;
-}
-
 #center {
   display: flex;
   justify-content: center;
-  min-width: auto;
 }
 
 #aligncenter {
@@ -40,10 +30,15 @@ main {
 #row {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .link {
   color: #FF7869;
+}
+
+#spacer {
+  padding: 30px 0;
 }
 
 #button {
@@ -59,4 +54,5 @@ main {
   box-shadow: 5px 5px #e6ccca;
   font-size: 24px;
   color: #261d1d;
+  margin: 15px;
 }
