@@ -56,3 +56,9 @@ footer {
   color: #261d1d;
   margin: 15px;
 }
+
+#about {
+  margin: auto;
+  max-width: 80%;
+  padding-top: 30px;
+}
