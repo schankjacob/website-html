@@ -1,0 +1,47 @@
+* {
+  font-family: 'VT323', monospace;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: mistyrose;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+main {
+  align-items: center;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  min-width: auto;
+}
+
+#aligncenter {
+  justify-content: center;
+  margin: auto;
+}
+
+#column {
+  display: flex;
+  flex-direction: column;
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  color: #FF7869;
+}
