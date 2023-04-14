@@ -62,3 +62,10 @@ footer {
   max-width: 80%;
   padding-top: 30px;
 }
+
+
+@media (orientation: portrait) {
+  #row {
+    flex-direction: column;
+  }
+}

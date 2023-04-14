@@ -89,6 +89,7 @@ align-items: center;
 justify-content: center;
 box-shadow: 5px 5px #e6ccca;
 margin-left: 10px;
+margin-top: 20px;
 font-size: 18px;
 font-color: black;
 }
@@ -96,19 +97,19 @@ font-color: black;
 content: "";
 width: 15px;
 height: 10px;
-position: absolute;
+position: relative;
 background-color: mediumslateblue;
-left: 10px;
-top: 0;
+left: -110px;
+top: -20px;
 }
 #paper:after {
 content: "";
 width: 15px;
 height: 10px;
-position: absolute;
+position: relative;
 background-color: mediumslateblue;
-left: 10px;
-top: 40px;
+left: -125px;
+top: 20px;
 }
 
 #boxes {
@@ -117,7 +118,7 @@ height: 10px;
 background-color: mediumslateblue;
 position: relative;
 left: -10px;
-top: -20px;
+top: -10px;
 }
 #boxes:before {
 content: "";
