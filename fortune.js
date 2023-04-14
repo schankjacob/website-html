@@ -112,9 +112,14 @@ const fortunes = [
     "You will be able to talk to trees, but they will only want to talk about the weather.",
 ];
 
+//Select random fortune function
+function randomFortune() {
+    return fortunes[Math.floor(Math.random()*items.length)];
+}
+
 
 //Like button
-document.getElementsByClassName("like").innerHTML = "Liked!";
+document.getElementById("likeButton").innerHTML = 'Liked!';
 
 //Open Another button
-
+document.getElementsByClassName("refreshFortune").innerHTML = randomFortune();
