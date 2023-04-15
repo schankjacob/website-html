@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="sprites.css" />
+    <script src="fortune.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
@@ -46,11 +47,11 @@
 
         <div id="column">
             <div id="row">
-                <div class="button" id="likeButton">Like</div>
+                <div class="button" id="like" onclick="likeClick();">Like</div>
                 <div class="button" onclick="window.location.href='/website-html/board.html'">View Board</div>
             </div>
             <div id="row">
-                <div class="button" id="refreshFortune">Open Another</div>
+                <div class="button" id="refresh" onclick="refreshFortune();">Open Another</div>
             </div>
         </div>
     </main>

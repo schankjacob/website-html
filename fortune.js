@@ -114,12 +114,24 @@ const fortunes = [
 
 //Select random fortune function
 function randomFortune() {
-    return fortunes[Math.floor(Math.random()*items.length)];
+    return fortunes[Math.floor(Math.random()*fortunes.length)];
 }
 
 
 //Like button
-document.getElementById("likeButton").innerHTML = 'Liked!';
+function likeClick() {
+    const element = document.getElementById("like");
+    element.innerHTML = "Liked!";
+}
+
+function likeReset() {
+    const element = document.getElementById("like");
+    element.innerHTML = "Like";
+}
 
 //Open Another button
-document.getElementsByClassName("refreshFortune").innerHTML = randomFortune();
+function refreshFortune() {
+    likeReset();
+    const element = document.getElementById("refreshFortune");
+
+}
