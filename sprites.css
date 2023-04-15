@@ -157,3 +157,13 @@ user-select: none;
     border-color: rosybrown;
     border-style: inset;
 }
+
+
+@media (orientation: portrait) {
+    #broken-left {
+        display: none;
+    }
+    #broken-right {
+        display: none;
+    }
+  }
