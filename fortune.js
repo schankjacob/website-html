@@ -132,6 +132,6 @@ function likeReset() {
 //Open Another button
 function refreshFortune() {
     likeReset();
-    const element = document.getElementById("refreshFortune");
+    const element = document.getElementById("refresh");
 
 }
