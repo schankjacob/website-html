@@ -116,9 +116,9 @@ section {
     width: 13px;
     height: 13px;
     background-color: mediumslateblue;
-    position: relative;
-    left: -23px;
-    top: -43.5px;
+    position: absolute;
+    right: 10px;
+    top: 0;
 }
 #boxes:before {
     content: "";
