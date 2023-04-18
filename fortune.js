@@ -132,19 +132,23 @@ function likeReset() {
 //Open Another button
 function refreshFortune() {
     likeReset();
-    const element = document.getElementById("refresh");
-
+    const fortuneEl = document.getElementById("paper");
+    fortuneEl.textContent = randomFortune();
 }
 
 function getPlayerName() {
     return localStorage.getItem('userName') ?? 'Mystery user';
 }
 
-
+//Constructor
 window.onload = function constructor() {
     const playerNameEl = document.querySelector('.nameLocation');
     playerNameEl.textContent = this.getPlayerName();
+
+    refreshFortune();
 }
+
+
 
 
 /*async reset() {
